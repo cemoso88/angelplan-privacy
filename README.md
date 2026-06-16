@@ -1,6 +1,6 @@
-# AngelPlan — Privacy & Legal
+# Angeltrainer Bayern — Privacy & Legal
 
-GitHub-Pages-Site mit Datenschutzerklärung und Impressum der AngelPlan-iOS-App.
+GitHub-Pages-Site mit Datenschutzerklärung und Impressum der Angeltrainer Bayern-iOS-App.
 
 Live: https://cemoso88.github.io/angelplan-privacy/
 
