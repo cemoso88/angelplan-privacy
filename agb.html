@@ -49,6 +49,29 @@
       font-size: 14px; font-weight: 500;
     }
     .lang-switch a:hover { border-color: var(--accent); color: var(--accent); }
+    .stand-banner {
+      background: rgba(245, 158, 11, 0.10);
+      border: 1.5px solid rgba(245, 158, 11, 0.45);
+      border-radius: 14px;
+      padding: 18px 20px;
+      margin: 24px 0 28px;
+    }
+    .stand-banner strong.accent { color: #b45309; }
+    @media (prefers-color-scheme: dark) {
+      .stand-banner {
+        background: rgba(251, 191, 36, 0.10);
+        border-color: rgba(251, 191, 36, 0.45);
+      }
+      .stand-banner strong.accent { color: #fbbf24; }
+    }
+    .stand-banner h3 {
+      margin: 0 0 10px;
+      font-size: 14px;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+    .stand-banner p { margin: 6px 0; }
     ul { padding-left: 22px; margin: 8px 0 16px; }
     li { margin: 4px 0; }
     a { color: var(--accent); }
@@ -86,6 +109,31 @@
 
 <!-- ===================== DEUTSCH ===================== -->
 <section id="de">
+
+  <div class="stand-banner">
+    <h3><strong class="accent">Wichtig — Stand der Daten</strong></h3>
+    <p>
+      <strong>Alle in der App enthaltenen Fragen, Antworten, Quelltexte und Lerninhalte
+      basieren auf dem amtlichen Fragenkatalog der Bayerischen Landesanstalt für
+      Landwirtschaft (LfL), Auflage 2026/2027, Stand 11.03.2026.</strong>
+      App-Version 1.0.0 (Build 1), Bundle-Stand: <strong>16. Juni 2026</strong>.
+    </p>
+    <p>
+      <strong>Wir übernehmen keine Verantwortung</strong>, wenn die Prüfungsbehörde
+      den Fragenkatalog kurzfristig erweitert, ändert, austauscht oder neue Fragen
+      ergänzt, bevor die App ein entsprechendes Update erhalten hat. Maßgeblich für
+      jede Prüfung ist immer der <strong>aktuell gültige amtliche Katalog am
+      Prüfungstag</strong> — nicht der in der App gespeicherte Stand.
+    </p>
+    <p>
+      <strong>Die App ist ausdrücklich nicht die einzige Vorbereitungsquelle.</strong>
+      Wir empfehlen dringend zusätzliche eigene Recherche, einen amtlich anerkannten
+      Vorbereitungslehrgang, das Studium der Originalmaterialien der LfL sowie den
+      Austausch mit erfahrenen Anglerinnen und Anglern. Eine Haftung für nicht
+      bestandene Prüfungen oder schlechtere Ergebnisse ist ausgeschlossen — siehe
+      § 6 unten.
+    </p>
+  </div>
 
   <h2>1. Geltungsbereich</h2>
   <p>
@@ -215,6 +263,29 @@
 
 <!-- ===================== ENGLISH ===================== -->
 <section id="en" hidden>
+
+  <div class="stand-banner">
+    <h3><strong class="accent">Important — Data Status</strong></h3>
+    <p>
+      <strong>All questions, answers, source texts and learning content in the app
+      are based on the official catalog of the Bavarian State Institute for
+      Agriculture (LfL), edition 2026/2027, as of 2026-03-11.</strong>
+      App version 1.0.0 (Build 1), bundle status: <strong>16 June 2026</strong>.
+    </p>
+    <p>
+      <strong>We accept no responsibility</strong> if the exam authority expands,
+      changes, replaces or adds new questions to the catalog before the app has
+      received a corresponding update. The <strong>current official catalog on exam
+      day</strong> is always authoritative — not the snapshot stored inside the app.
+    </p>
+    <p>
+      <strong>The app is explicitly not the only preparation source.</strong> We
+      strongly recommend additional independent research, an officially recognized
+      preparatory course, studying the LfL's original materials, and exchange with
+      experienced anglers. Liability for failed exams or worse results is excluded —
+      see § 6 below.
+    </p>
+  </div>
 
   <h2>1. Scope</h2>
   <p>
